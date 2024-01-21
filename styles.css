@@ -1,0 +1,67 @@
+body{
+  width: 100%;
+  background-color:rgb(247, 198, 108);
+      text-align:center;
+  }
+  .Image{
+  position: relative;
+  height: 80px;
+  width: 120px;
+  margin-left: 100px;
+  margin-top: 90px;
+}
+.art{
+  margin-top: -10px;
+  margin-left: 40px;
+  margin-bottom: 0%;
+}
+.cart{
+  height: 80px;
+  width: 120px;
+  margin-left: 250px;
+  margin-top: -350px;
+}
+
+h1{
+margin-top: 10%;
+margin-bottom: 0%;
+color:#101019;
+font-size: 600%;
+font-family:'pangerine',cursive;
+}
+.chart{
+  height: 80px;
+  width: 120px;
+  margin-left: 1500px;
+  margin-top: -30px;
+  margin-bottom: auto;
+
+}
+.hart{
+  height: 80px;
+  width: 120px;
+  margin-left: 1350px;
+  margin-top: -60px;
+  margin-bottom: auto;
+}
+.h2{
+text-align: center;
+margin-top: -20;
+color: #04333f;
+font-family:'montserrat',cursive ;
+font-size: 200%;
+
+}
+.profile{
+  margin-top: 150px;
+}
+.Image,.chart{
+  position: absolute;
+  top: 50px; /* Adjust the top value as needed */
+  animation: floatClouds linear infinite 5s;
+}
+@keyframes floatClouds {
+  0% { transform: translateX(0); }
+  50% { transform: translateX(20px); }
+  100% { transform: translateX(0);}
+}
